@@ -23,10 +23,7 @@ public class Main {
 
         String[] modeliphone2;
         modeliphone2 = Arrays.copyOf(iphone.modeliphone,15);
-        System.out.println(Arrays.toString(modeliphone2));// - вывод на экран новый массив
-        for (x=0; x<modeliphone2.length; x++);{
-            System.out.println(modeliphone2[x].toLowerCase());
-        }
+        System.out.println(Arrays.toString(modeliphone2));// - вывод на экран нового массива
 
     }
 }
